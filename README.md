@@ -5,10 +5,15 @@ The above project contains 4 sections(Header/Navbar, Room type, About us, and fo
 I have created 2 image sliders, out of which one is an automatic image slider whereas the other is a manual image slider.
 
 <ins>**Automatic Image Slider**</ins>
-![](https://github.com/user-attachments/assets/c98fbe3f-c801-436e-a31f-8493b98d945d)
+
+<video autoplay src="https://github.com/user-attachments/assets/c98fbe3f-c801-436e-a31f-8493b98d945d"></video>
 
 <ins>**Manual Image Slider**</ins>
-![](https://github.com/user-attachments/assets/b5eb2a8b-bbbc-4cf6-8639-bb1b12829b19)
+
+<video src="https://github.com/user-attachments/assets/b5eb2a8b-bbbc-4cf6-8639-bb1b12829b19" width="640" height="360"></video>
 
 <ins>**About Us Section**</ins>
-![](https://github.com/user-attachments/assets/c79a02e0-4ddb-4585-b73e-e7dd0c64a64a)
+
+<img height="400" width="560" src="https://github.com/user-attachments/assets/c79a02e0-4ddb-4585-b73e-e7dd0c64a64a">
+
+
