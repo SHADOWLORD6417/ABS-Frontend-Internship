@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+.navbar {
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a {
+    margin: 20px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.award-icon {
+    justify-content: space-around;
+    padding: auto;
+}
+
+.awards-card {
+    padding: auto;
+    text-align: center;
+}
+
+.awards {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    color: #333;
+}
+
+.aminities {
+    display: flex;
+    flex-direction: row;
+}
+
+footer nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+.slider-buttons {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.room-slider {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.room-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 300%;
+}
+
+.room-item {
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.room-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    justify-content: center;
+}
+
+li {
+    padding: 5px;
+    text-align: start;
+}
+
+.room-details {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.room-points {
+    padding: auto;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.image-slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 50vh;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slides {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slides img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    opacity: 0;
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.slides img.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.slides {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slides img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.slides img.active {
+    opacity: 1;
+    transform: scale(1.1);
+}
